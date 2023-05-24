@@ -42,5 +42,9 @@ public class ClientController {
         userService.deleteUser(id);
         return "User Deleted Successfully...";
     }
+    @GetMapping("/api")
+    public String hello() {
+        return "Hello!";
+    }
 
 }
