@@ -20,7 +20,7 @@ public class ClientController {
         return "User Added Successfully...";
     }
 
-    @GetMapping("/api/users")
+    @GetMapping("/api")
     public List<User> getUsers(){
         System.out.println("Users..");
         return userService.getUser();
@@ -42,7 +42,7 @@ public class ClientController {
         userService.deleteUser(id);
         return "User Deleted Successfully...";
     }
-    @GetMapping("/api")
+    @GetMapping("/api/hello")
     public String hello() {
         return "Hello!";
     }
