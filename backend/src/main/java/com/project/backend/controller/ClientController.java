@@ -20,7 +20,7 @@ public class ClientController {
         return "User Added Successfully...";
     }
 
-    @GetMapping("/api")
+    @GetMapping("/api/users")
     public List<User> getUsers(){
         System.out.println("Users..");
         return userService.getUser();
