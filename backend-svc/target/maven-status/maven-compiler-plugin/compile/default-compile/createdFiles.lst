@@ -1,0 +1,6 @@
+com/project/backend/model/User.class
+com/project/backend/controller/ClientController.class
+com/project/backend/repository/UserRepository.class
+com/project/backend/service/UserServiceImpl.class
+com/project/backend/BackendApplication.class
+com/project/backend/service/UserService.class
